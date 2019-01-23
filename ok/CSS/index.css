@@ -1,0 +1,624 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+header {
+   width: 100%;
+   height: 849px;
+   background-image: url(../images/charli.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   
+}
+
+.wellcome {
+    margin: 0px;
+    margin-left: 45%;
+    width: 55%;
+}
+h1 {
+    margin: 0px;
+    margin-top: 35%;
+    color:#707070;
+}
+a {
+    text-decoration: none;
+    color: #6594FF;
+}
+
+.text {
+    text-decoration: none;
+    color:#707070;
+}
+a:hover {
+    text-decoration: underline;
+}
+i{
+    color: #707070;
+}
+
+ul {
+    padding: 0px;
+    display: flex;
+}
+.blockMenu {
+    margin: 0px;
+    margin-left: 45%;
+}
+.menuSab {
+    width: 100%;
+}
+.menu {
+    display: none;
+}
+.podmenu {
+    margin-top:20px;
+}
+li {
+    list-style: none;
+    margin-left: 5%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.marTop {
+    margin-top: 300px;
+}
+.main {
+    display:flex;
+    margin:0px;
+    width: 100%;
+    margin-right: 30%;
+    margin-left: 15%;
+    margin-top: 200px;
+}
+section {
+    color:#707070;
+}
+.section1{
+    flex-grow: 1;
+    width: 30%;
+}
+.section2 {
+    flex-grow: 1;
+    width: 70%;
+}
+
+@media screen and (min-width:600px) and (min-height:489px){
+    header {
+        height: 793px;
+    }
+    h1 {
+        font-size: 140%;
+    }
+    li {
+        font-size: 70%;
+    }
+}
+@media screen and (min-width:800px) and (min-height:669px) {
+    header {
+        height: 793px;
+    }
+    h1 {
+        font-size: 160%;
+    }
+    li {
+        font-size: 80%;
+    }
+}
+@media screen and (min-width:1000px) and (min-height:793px) {
+    header {
+        height: 849px;
+    }
+    h1 {
+        font-size: 180%;
+    }
+    li {
+        font-size: 90%;
+    }
+}
+@media screen and (min-width:1200px) and (min-height:849px) {
+    header {
+        height: 969px;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    li {
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:800px) and (min-height:1000px) {
+    header {
+        height: 600px;
+    }
+    h1 {
+        font-size: 100%;
+    }
+    li {
+        font-size: 80%;
+    }
+}
+ @media screen and (min-width:900px) and (max-width:1100px) and (min-height:1200px) {
+    header {
+        height: 600px;
+    }
+    h1 {
+        font-size: 135%;
+    }
+    li {
+        font-size: 90%;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:374px) {
+    body {
+        font-size: 15px;
+    }
+    header{
+        width: 360px;
+        height: 550px;
+        background-image: url(../images/ok.png);
+        background-image: 100%;
+    }
+    p{
+        
+    }
+    .wellcome {
+        display: none;
+    }
+    .menu {
+        display:inline;
+    }
+    .menuSab {
+        position: relative;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        
+    }
+    .podmenu {
+        margin: 0px;
+        position: absolute;
+        display: none;
+        top: 100%;
+    }
+    ul {
+        display: block;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+        width: 200px;
+        height: 50px;
+        border-bottom: white 1px solid;
+    }
+    .subparagraph {
+        display: flex;
+        align-items: center;
+        border-right: #707070 1px solid;
+        background-color: #707070;
+    }
+    .blockMenu {
+        margin: 0px;
+    }
+    .text{
+        color: white;
+        margin-left: 5px;
+    }
+    .subparagraph1 {
+        border-top: white 1px solid;
+    }
+    i{
+        margin-left: 10px;
+        color:white;
+    }
+    .fa-bars {
+        font-size: 300%;
+        margin-left: 5px;
+    }
+    .openMenu {
+        display: block;
+    }
+    
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:320px) and (max-width:374px) and (min-height:550px) {
+    body {
+        font-size: 18px;
+    }
+    header{
+        width: 380px;
+        height: 680px;
+        background-image: url(../images/ok.png);
+        background-image: 100%;
+    }
+    
+    .wellcome {
+        display: none;
+    }
+    .menu {
+        display:inline;
+    }
+    .menuSab {
+        position: relative;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        
+    }
+    .podmenu {
+        margin: 0px;
+        position: absolute;
+        display: none;
+        top: 100%;
+    }
+    ul {
+        display: block;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+        width: 200px;
+        height: 70px;
+        border-bottom: white 1px solid;
+    }
+    .subparagraph {
+        display: flex;
+        align-items: center;
+        border-right: #707070 1px solid;
+        background-color: #707070;
+    }
+    .blockMenu {
+        margin: 0px;
+    }
+    .text{
+        font-size: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+    .subparagraph1 {
+        border-top: white 1px solid;
+    }
+    i{
+        margin-left: 10px;
+        color:white;
+    }
+    .fa-bars {
+        font-size: 400%;
+        margin-left: 5px;
+    }
+    .openMenu {
+        display: block;
+    }
+    
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+} 
+@media screen and (min-width:375px) and (max-width:424px) {
+    body {
+        font-size: 18px;
+    }
+    header{
+        width: 380px;
+        height: 680px;
+        background-image: url(../images/ok.png);
+        background-image: 100%;
+    }
+    
+    .wellcome {
+        display: none;
+    }
+    .menu {
+        display:inline;
+    }
+    .menuSab {
+        position: relative;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        
+    }
+    .podmenu {
+        margin: 0px;
+        position: absolute;
+        display: none;
+        top: 100%;
+    }
+    ul {
+        display: block;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+        width: 200px;
+        height: 70px;
+        border-bottom: white 1px solid;
+    }
+    .subparagraph {
+        display: flex;
+        align-items: center;
+        border-right: #707070 1px solid;
+        background-color: #707070;
+    }
+    .blockMenu {
+        margin: 0px;
+    }
+    .text{
+        font-size: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+    .subparagraph1 {
+        border-top: white 1px solid;
+    }
+    i{
+        margin-left: 10px;
+        color:white;
+        font-size: 200%;
+    }
+    .fa-bars {
+        font-size: 400%;
+        margin-left: 5px;
+    }
+    .openMenu {
+        display: block;
+    }
+    
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+} 
+@media screen and (min-width:375px) and (max-width:415px) and (min-height:800px) {
+    body {
+        font-size: 18px;
+    }
+    header{
+        width: 380px;
+        height: 680px;
+        background-image: url(../images/ok.png);
+        background-image: 100%;
+    }
+    
+    .wellcome {
+        display: none;
+    }
+    .menu {
+        display:inline;
+    }
+    .menuSab {
+        position: relative;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        
+    }
+    .podmenu {
+        margin: 0px;
+        position: absolute;
+        display: none;
+        top: 100%;
+    }
+    ul {
+        display: block;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+        width: 200px;
+        height: 70px;
+        border-bottom: white 1px solid;
+    }
+    .subparagraph {
+        display: flex;
+        align-items: center;
+        border-right: #707070 1px solid;
+        background-color: #707070;
+    }
+    .blockMenu {
+        margin: 0px;
+    }
+    .text{
+        font-size: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+    .subparagraph1 {
+        border-top: white 1px solid;
+    }
+    i{
+        margin-left: 10px;
+        color:white;
+        font-size: 200%;
+    }
+    .fa-bars {
+        font-size: 400%;
+        margin-left: 5px;
+    }
+    .openMenu {
+        display: block;
+    }
+    
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:450px) and (min-height:700px) {
+    body {
+        font-size: 18px;
+    }
+    header{
+        width: 420px;
+        height: 680px;
+        background-image: url(../images/ok.png);
+        background-image: 100%;
+    }
+    
+    .wellcome {
+        display: none;
+    }
+    .menu {
+        display:inline;
+    }
+    .menuSab {
+        position: relative;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        
+    }
+    .podmenu {
+        margin: 0px;
+        position: absolute;
+        display: none;
+        top: 100%;
+    }
+    ul {
+        display: block;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+        width: 200px;
+        height: 70px;
+        border-bottom: white 1px solid;
+    }
+    .subparagraph {
+        display: flex;
+        align-items: center;
+        border-right: #707070 1px solid;
+        background-color: #707070;
+    }
+    .blockMenu {
+        margin: 0px;
+    }
+    .text{
+        font-size: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+    .subparagraph1 {
+        border-top: white 1px solid;
+    }
+    i{
+        margin-left: 10px;
+        color:white;
+        font-size: 200%;
+    }
+    .fa-bars {
+        font-size: 400%;
+        margin-left: 5px;
+    }
+    .openMenu {
+        display: block;
+    }
+    
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+}
+@media screen and (min-width:425px) and (max-width:450px) {
+    body {
+        font-size: 18px;
+    }
+    header{
+        width: 450px;
+        height: 680px;
+        background-image: url(../images/ok.png);
+        background-image: 100%;
+    }
+    
+    .wellcome {
+        display: none;
+    }
+    .menu {
+        display:inline;
+    }
+    .menuSab {
+        position: relative;
+        background-color: #707070;
+        display: flex;
+        align-items: center;
+        
+    }
+    .podmenu {
+        margin: 0px;
+        position: absolute;
+        display: none;
+        top: 100%;
+    }
+    ul {
+        display: block;
+        margin: 0px;
+    }
+    li{
+        margin: 0px;
+        width: 200px;
+        height: 70px;
+        border-bottom: white 1px solid;
+    }
+    .subparagraph {
+        display: flex;
+        align-items: center;
+        border-right: #707070 1px solid;
+        background-color: #707070;
+    }
+    .blockMenu {
+        margin: 0px;
+    }
+    .text{
+        font-size: 100%;
+        color: white;
+        margin-left: 5px;
+    }
+    .subparagraph1 {
+        border-top: white 1px solid;
+    }
+    i{
+        margin-left: 10px;
+        color:white;
+        font-size: 200%;
+    }
+    .fa-bars {
+        font-size: 400%;
+        margin-left: 5px;
+    }
+    .openMenu {
+        display: block;
+    }
+    
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+}
+
+
+
+  
+
+
+        
+      
+
+
+

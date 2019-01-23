@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width"/>
+    <title>Дмитрий Коныгин</title>
+    <link rel="stylesheet" media="screen and (color)" href="../CSS/index.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+<body>
+    <header> 
+            <h1 class="wellcome">Добро пожаловать на мой сайт</h1>
+            <ul class="blockMenu">
+                <li class="menuSab"> <a onclick="menu.sub()" href="#" class="menu"><i class="fas fa-bars"></i></a>
+                    <ul class="podmenu" id="podmenu">
+                            <li class="subparagraph subparagraph1"><i class="fas fa-id-badge"></i><a onclick="menu.statick()" href="#me" class="text"> Обо мне</a></li>
+                            <li class="subparagraph"><i class="fas fa-briefcase"></i><a onclick="menu.statick()" href="#work" class="text"> Опыт работы</a></li>
+                            <li class="subparagraph"><i class="fab fa-telegram"></i><a onclick="menu.statick()" href="#tel" class="text"> Мои контакты</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </header>
+
+    <div id="me"></div>
+
+    <main>
+        
+        <div class="main" id="">
+            <section class="section1"><p>Обо мне:</p></section>
+            <section class="section2">
+                <p>Привет, меня зовут Дмитрий. Спасибо, что зашли на мой сайт, здесь я вам расскажу немного о себе .
+                        C детства занимался футболом, в 13 лет поступил в школу олимпийского резерва "Мастер-Сатурн".Но в 
+                        19 мне пришлось закончить карьеру футболиста из-за травмы. Дальше год я работал звукорежиссером в 
+                        развлекательном центре .После этого устроился менеджером по работе с юридичискими лицами в банк. 
+                        Проработав там год я нашел для себя новое направление веб разработчик .Тогда я решил сменить место 
+                        работы ,что бы иметь больше свободного времени для изучения новой информации. Сейчас в первую очередь 
+                        меня интерисует опыт работы и опытный наставник. Из достижений пока похвастаться нечем ,делаю простые 
+                        сайты вроде этого.Комерческих работ не было. Хорошие знания HTML, CSS и базовый JavaScript.</p>
+            </section>
+        </div>
+
+        <div id="work"></div>
+
+        <div class="main marTop" id="">
+            <section class="section1"><p>Опыт работы:</p></section>
+            <section class="section2">
+                <p>Футболист: 5 лет. <br>
+                        Место работы: <a href="http://master-saturn.ru/">Фк "Мастер-Сатурн"</a>,<a href="https://fcstrogino.ru/">Фк "Строгино"</a>. <br>
+                        Обязанности: играть в футбол. <br>
+                        <br>
+                        <br>
+                        Звукорежиссер: 1 год. <br>
+                        Место работы: РЦ <a href="https://vk.com/lifestyleclub">"Стиль Жизни"</a>. <br>
+                        Обязанности: настройка и управление аппаратурой. <br>
+                        <br>
+                        <br>
+                        Менеджер: 1 год. <br>
+                        Место работы: <a href="https://www.tinkoff.ru/">"Тинькофф Банк"</a>. <br>
+                        Обязанности: Работа с ИП и юр.лицами, работа в "полях", прямые продажи, основной продукт РКО. <br>
+                        <br>
+                        <br>
+                        Контроллер: 1.5 года. <br>
+                        Место работы: <a href="http://www.protek.ru/">"Протек"</a>. <br>
+                        Обязанности: Проверка товара.</p>
+            </section>
+        </div>
+
+        <div id="tel"></div>
+
+        <div class="main marTop" id="">
+            <section class="section1"><p> Связь со мной:</p></section>
+            <section class="section2">
+                <p>Контактный телефон: <a href="tel:+79104680065">+7(910)468-00-65</a> <br>
+                        Email: <a href="mailto:konygin2018@yandex.ru">konygin2018@yandex.ru</a></p>
+            </section>
+        </div>
+
+    </main>
+    <script src="../js/index.js"></script>
+</body>
+</html>
